@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.user-survey { position: relative; padding: 40px 40px 52px; font-size: 14px; line-height: 1.5; font-family: "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", "Noto Sans KR", "Spoqa Han Sans Neo", "Spoqa Han Sans", "나눔고딕", "NanumGothic", sans-serif; color: #333; }
+
+.user-survey * { margin: 0; padding: 0; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit; color: inherit; -webkit-overflow-scrolling: touch; }
+
+.user-survey img { border: 0; }
+
+.user-survey ul, .user-survey li { list-style: none; }
+
+.user-survey a, .user-survey button { cursor: pointer; }
+
+.user-survey a { text-decoration: none; }
+
+.user-survey button { border: none; background: transparent; }
+
+.user-survey input[type="text"], .user-survey textarea { border-radius: 0; }
+
+.user-survey textarea { resize: vertical; }
+
+.user-survey .survey-header { padding-bottom: 40px; }
+
+.user-survey .survey-header .survey-title { font-size: 20px; text-align: center; font-weight: bold; }
+
+.user-survey .survey-header button { position: absolute; top: 24px; right: 24px; width: 20px; height: 20px; padding: 4px; }
+
+.user-survey .survey-header button img { width: 100%; height: auto; }
+
+.user-survey .survey-body { padding-bottom: 24px; border-top: 1px solid #333; border-bottom: 1px solid #e1e1e1; }
+
+.user-survey .survey-body > p { padding: 24px; background: #f7f7f7; text-align: center; }
+
+.user-survey .survey-list { margin-top: 8px; }
+
+.user-survey .survey-item { overflow: hidden; padding-top: 24px; }
+
+.user-survey .survey-item:not(:first-child) { margin-top: 24px; border-top: 1px solid #e1e1e1; }
+
+.user-survey .survey-item > span { clear: both; display: block; float: left; min-width: 24px; margin-right: 16px; padding: 2px 1px; border: 1px solid #ccc; border-radius: 4px; background: #f4f4f4; font-size: 12px; font-weight: bold; text-align: center; }
+
+.user-survey .survey-item-content { overflow: hidden; }
+
+.user-survey .survey-item-header { overflow: hidden; font-size: 16px; font-weight: bold; }
+
+.user-survey .survey-item-header span { display: inline-block; margin-left: 8px; font-weight: normal; }
+
+.user-survey .survey-item-body li { overflow: hidden; margin-top: 16px; }
+
+.user-survey .survey-item-body input[type=checkbox], .user-survey .survey-item-body input[type=radio] { clear: both; float: left; margin-top: 4px; margin-right: 8px; }
+
+.user-survey .survey-item-body label { overflow: hidden; display: block; }
+
+.user-survey textarea.survey-item-body { width: 100%; margin-top: 16px; padding: 8px 16px; border: 1px solid #e1e1e1; border-radius: 4px; }
+
+.user-survey .survey-footer { display: -webkit-box; display: -ms-flexbox; display: flex; margin-top: 32px; }
+
+.user-survey .survey-footer a, .user-survey .survey-footer button { display: inline-block; padding: 9px 16px; border-radius: 4px; text-align: center; vertical-align: middle; white-space: nowrap; font-weight: medium; color: #fff; opacity: .4; cursor: default; pointer-events: none; }
+
+.user-survey .survey-footer a.active, .user-survey .survey-footer button.active { opacity: 1; cursor: pointer; pointer-events: auto; }
+
+.user-survey .survey-footer .survey-submit { min-width: 120px; margin-left: auto; background: #DF4F49; }
+
+.user-survey .survey-pagination a { background: #2E2F2E; }
